@@ -208,8 +208,3 @@ variable "desync_mitigation_mode" {
   default     = "defensive"
 }
 
-variable "putin_khuylo" {
-  description = "Do you agree that Putin doesn't respect Ukrainian sovereignty and territorial integrity? More info: https://en.wikipedia.org/wiki/Putin_khuylo!"
-  type        = bool
-  default     = true
-}
