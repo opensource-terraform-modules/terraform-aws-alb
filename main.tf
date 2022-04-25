@@ -1,5 +1,5 @@
 locals {
-  create_lb = var.create_lb && var.putin_khuylo
+  create_lb = var.create_lb
 }
 
 resource "aws_lb" "this" {
